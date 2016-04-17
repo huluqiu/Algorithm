@@ -2,7 +2,7 @@
 二叉查找树是一颗满足下面条件的二叉树
 `value[left] < value[root] < value[right]`
 如下图所示
-![](/Users/alezai/Documents/GitRepo/Algorithm/Binary Search Tree/Image/BinarySearchTree.png)
+![](Image/BinarySearchTree.png)
 
 ## insert
 
