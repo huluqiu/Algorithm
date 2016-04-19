@@ -18,11 +18,13 @@ AVL树是满足一定平衡条件的二叉查找树。
 **单旋转**
 
 ![](Image/leftRotate.png)
+
 ![](Image/rightRotate.png)
 
 **双旋转**
 
 ![](Image/leftRightRotate.png)
+
 ![](Image/rightLeftRotate.png)
 
 ## 实现
@@ -74,6 +76,7 @@ private func reconnectParentFromNode(node: TreeNode<T>, toNode: TreeNode<T>?)
 ```
 这个方法将`node`及其子书替换为`toNode`及其子树，如图所示
 `recconectParentFromNode(9, 8)`
+
 ![](Image/replaceReconnect1.png)
 
 ```swift
@@ -167,14 +170,21 @@ private func insertAtNode(node: TreeNode<T>, withValue value: T) {
 
 若为叶子节点，直接删除
 若为非叶子节点，则用右子树的最小节点来取代这个节点
+
 ![](Image/delete1.png)
 
 删除完毕后，树可能会失去平衡，需要重新调节平衡。这里的思路是，若在左子树上的删除使得该节点失衡，则可以看成是在右节点上的插入使得该节点失衡，然后通过旋转来调节
+
 ![](Image/delete2.png)
+
 在左子树上进行删除，判断右子树的左右儿子高度，左儿子高度小于右儿子高度，看成是在右子树的右儿子插入，通过一次左旋转调节
+
 ![](Image/delete3.png)
+
 在左子树上进行删除，判断右子树的左右儿子高度，左儿子高度大于右儿子高度，看成是在右子树的左儿子插入，通过一次右左双旋调节
+
 ![](Image/delete4.png)
+
 这种情况是右子树的左右儿子高度相同，这种情况只需一次左旋转调节
 
 ```swift
