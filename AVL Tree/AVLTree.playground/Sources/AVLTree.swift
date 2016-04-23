@@ -308,7 +308,7 @@ extension TreeNode: CustomStringConvertible {
         if let left = left {
             s += "(\(left.description)) <- "
         }
-        s += "\(value).\(height)"
+        s += "\(value)"
         if let right = right {
             s += " -> (\(right.description))"
         }

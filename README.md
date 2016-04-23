@@ -24,5 +24,6 @@
 
 ## 堆
 
-* [BinaryHeap](BinaryHeap/)
+* [BinaryHeap](BinaryHeap/)最值位于根处
+* [LeftHeap](LeftHeap/)方便合并操作的堆
 
