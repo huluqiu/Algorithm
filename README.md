@@ -22,8 +22,15 @@
 
 - [HashTable](HashTable/) key-value-coding
 
-## 堆
+## 优先队列(堆)
 
-* [BinaryHeap](BinaryHeap/)最值位于根处
-* [LeftHeap](LeftHeap/)方便合并操作的堆
+堆都具有堆序—最值位于根处
+
+* [BinaryHeap](BinaryHeap/)具有堆序的完全二叉树
+
+* [LeftHeap](LeftHeap/)倾向于加深左子树，具有堆序，便于合并操作
+
+* [BinomialQueue](BinomialQueue)是一个具有特定结构的堆的集合
+
+  ​
 
