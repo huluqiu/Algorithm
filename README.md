@@ -1,4 +1,5 @@
 # Algorithm
+该项目算法思路主要来源与《数据结构与算法分析》一书，swift实现参考了[swift-algorithm-club](https://github.com/hollance/swift-algorithm-club)
 ## 表
 
 - [List](List/)
@@ -26,13 +27,14 @@
 
 堆都具有堆序—最值位于根处
 
-* [BinaryHeap](BinaryHeap/)具有堆序的完全二叉树
+* [BinaryHeap](BinaryHeap/) 具有堆序的完全二叉树
 
-* [LeftHeap](LeftHeap/)倾向于加深左子树，具有堆序，便于合并操作
+* [LeftHeap](LeftHeap/) 倾向于加深左子树，具有堆序，便于合并操作
 
-* [BinomialQueue](BinomialQueue)是一个具有特定结构的堆的集合
+* [BinomialQueue](BinomialQueue) 是一个具有特定结构的堆的集合
 
 ## 排序
-* [Sort](Sort/)
+* [InsertionSort](InsertionSort/) 最简单的排序之一
+* [MergeSort](MergeSort/) 通过合并两个已排序的数组，来完成排序
   ​
 
