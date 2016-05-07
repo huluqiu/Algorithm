@@ -36,5 +36,7 @@
 ## 排序
 * [InsertionSort](InsertionSort/) 最简单的排序之一
 * [MergeSort](MergeSort/) 通过合并两个已排序的数组，来完成排序
-  ​
+* [ShellSort](ShellSort/) 通过增量序列比较一定间隔的元素来完成排序​
+* [HeapSort](HeapSort/) 通过优先队列来完成排序
+* [QuickSort](QuickSort/) 通过枢纽元对数组进行分组(分成小于枢纽元和大于枢纽元两组)来完成排序
 
